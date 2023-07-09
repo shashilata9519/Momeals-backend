@@ -7,9 +7,9 @@ const app = new Server().app;
 
 
 
-// app.get('/api/s',(req,res)=>{
-//     res.send('new req1')
-// })
+ app.get('/',(req,res)=>{
+     res.send('welcome to momeals')
+ })
 
 // app.post('/api',(req,res)=>{
 //     res.send('success')
